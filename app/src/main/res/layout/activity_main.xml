@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" tools:context=".MainActivity" android:id="@+id/main" android:orientation="vertical">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+            <Button android:id="@+id/but_ok_id" style="?android:attr/buttonStyleSmall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:onClick="displayDate" android:text="@string/but_ok_text"/>
+            <!--   Pour tests -> android:onClick="test"
+                      -->
+            <Button android:id="@+id/but_annuler_id" style="?android:attr/buttonStyleSmall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:onClick="doCancel" android:text="@string/but_annuler_text"/>
+        </LinearLayout>
+        <ScrollView android:id="@+id/sv_id" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scrollbars="vertical">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+                <TextView android:id="@+id/tv_titre_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tv_titre_text" android:textAppearance="?android:attr/textAppearanceLarge"/>
+                <EditText android:id="@+id/ed_titre_id" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10" android:hint="@string/ed_titre_hint" android:inputType="text">
+                    <requestFocus/>
+                </EditText>
+                <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:id="@+id/tv_note_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tv_note_text" android:textAppearance="?android:attr/textAppearanceLarge"/>
+                    <EditText android:id="@+id/ed_note_id" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_toRightOf="@+id/tv_note_id" android:gravity="top|center_vertical" android:hint="@string/ed_note_hint" android:inputType="textMultiLine" android:lines="5" android:maxLines="5" android:scrollbars="none" android:scrollHorizontally="false"/>
+                </RelativeLayout>
+                <TextView android:id="@+id/tv_pour_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tv_pour_text" android:textAppearance="?android:attr/textAppearanceLarge"/>
+                <!--   android:datePickerMode="spinner"
+                             -->
+                <!--   Pour tests -> android:calendarViewShown="false"
+                              -->
+                <DatePicker android:id="@+id/dp_pour_id" android:datePickerMode="spinner" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+                <TextView android:id="@+id/tv_correspondant_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tv_correspondant_text" android:textAppearance="?android:attr/textAppearanceLarge"/>
+                <EditText android:id="@+id/ed_correspondant_id" android:layout_width="match_parent" android:layout_height="wrap_content" android:ems="10" android:hint="@string/ed_correspondant_hint" android:inputType="textPersonName"/>
+                <EditText android:id="@+id/ed_commentaire_id" android:layout_width="fill_parent" android:layout_height="wrap_content" android:gravity="top|center_vertical" android:hint="@string/ed_commentaire_hint" android:inputType="textMultiLine" android:lines="10" android:maxLines="10"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

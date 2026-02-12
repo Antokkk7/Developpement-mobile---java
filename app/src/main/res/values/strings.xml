@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Editeur Todo</string>
+    <string name="action_settings">Parametres</string>
+    <string name="tv_titre_text">Titre :</string>
+    <string name="ed_titre_hint">donner un titre ...</string>
+    <string name="tv_note_text">"Todo : "</string>
+    <string name="ed_note_hint">donner un todo ... </string>
+    <string name="tv_correspondant_text">En lien avec :</string>
+    <string name="ed_correspondant_hint">nom de la personne ...</string>
+    <string name="tv_pour_text">Pour le : </string>
+    <string name="ed_commentaire_hint">commentaire ...</string>
+    <string name="but_ok_text">Ok</string>
+    <string name="but_annuler_text">Annuler</string>
+</resources>
