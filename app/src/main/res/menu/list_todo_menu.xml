@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/listview_menu_show_todo_id"
+        android:title="@string/lisview_menu_show_text" />
+    <item
+        android:id="@+id/listview_menu_modify_todo_id"
+        android:title="@string/lisview_menu_modify_text" />
+    <item
+        android:id="@+id/listview_menu_delete_todo_id"
+        android:title="@string/lisview_menu_remove_text" />
+</menu>

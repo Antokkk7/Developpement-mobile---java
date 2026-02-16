@@ -1,4 +1,4 @@
-package fr.blagnac.projet;
+package fr.iutblagnac.devmobtp1p2;
 
 import org.junit.Test;
 
