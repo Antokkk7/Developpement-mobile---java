@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">Todo List</string>
-    <string name="lib_tv_titre_liste_todo">Liste des todos existants</string>
-    <string name="lisview_menu_show_text">Voir le todo</string>
-    <string name="lisview_menu_modify_text">Modifier le todo</string>
-    <string name="lisview_menu_remove_text">Supprimer le todo</string>
-    <string name="main_menu_ajouter_todo_text">Ajouter un todo</string>
+    <string name="app_name">BlagnacRace</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="cible"></string>
+	<string name="serveur">Adresse du serveur de la course</string> 
+	<string name="adresse"> cdam.alwaysdata.net/BR01</string>
+	<string name="nom">Nom de participant</string> 
 </resources>

@@ -1,4 +1,4 @@
-package fr.iutblagnac.devmobtp1p2;
+package fr.blagnac.race;
 
 import org.junit.Test;
 

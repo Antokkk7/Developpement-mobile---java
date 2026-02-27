@@ -19,6 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Todo List"
-include(":app")
- 
+rootProject.name = "BlagnacRace"
+include ':app'

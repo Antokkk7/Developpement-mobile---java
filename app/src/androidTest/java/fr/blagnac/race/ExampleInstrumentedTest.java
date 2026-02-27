@@ -1,4 +1,4 @@
-package fr.iutblagnac.devmobtp1p2;
+package fr.blagnac.race;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("fr.iutblagnac.devmobtp1p2", appContext.getPackageName());
+        assertEquals("fr.blagnac.race", appContext.getPackageName());
     }
 }
